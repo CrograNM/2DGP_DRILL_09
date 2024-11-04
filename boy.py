@@ -1,8 +1,7 @@
 # 이것은 각 상태들을 객체로 구현한 것임.
 
 from pico2d import get_time, load_image, SDL_KEYDOWN, SDL_KEYUP, SDLK_SPACE, SDLK_LEFT, SDLK_RIGHT
-
-from Labs.Lecture13_Game_World import game_world
+import game_world
 from state_machine import *
 from ball import Ball
 

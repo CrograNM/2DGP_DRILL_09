@@ -1,6 +1,6 @@
 from pico2d import load_image
 
-from Labs.Lecture13_Game_World import game_world
+import game_world
 
 
 class Ball:
