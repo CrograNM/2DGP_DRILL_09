@@ -30,8 +30,11 @@ def reset_world():
     boy = Boy() # 영속 객체
     game_world.add_object(boy, 1) # 포그라운드 깊이에 그린다 (앞)
 
-    grass = Grass()  # 영속 객체, 월드가 존재하는 한 계속 살아있는 객체
+    grass = Grass(400, 30)  # 영속 객체, 월드가 존재하는 한 계속 살아있는 객체
     game_world.add_object(grass, 0 ) # 백그라운드 깊이에 그린다 (뒤)
+
+    grass2 = Grass(400, 10)  # 영속 객체, 월드가 존재하는 한 계속 살아있는 객체
+    game_world.add_object(grass2, 2)  # 소년보다 앞 깊이에 그린다.
 
 
 
